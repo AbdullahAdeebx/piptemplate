@@ -1,1 +1,1 @@
-# This file signifies that 'pip-template' is a Python package. 
+# This file signifies that 'piptemplate' is a Python package. 
