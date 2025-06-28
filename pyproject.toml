@@ -3,16 +3,16 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "piptemplate"
+name = "WhiteoutPDF"
 version = "0.1.0"
-description = "A simple pip template by Abdullah Adeeb"
+description = "A simple WhiteoutPDF by Abdullah Adeeb"
 readme = "README.md"
 requires-python = ">=3.7"
 license = "MIT"
 authors = [
     { name = "Abdullah Adeeb", email = "abdullah@abdullahadeeb.xyz" },
 ]
-keywords = ["pip", "template", "cli"]
+keywords = ["WhiteoutPDF", "cli"]
 
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -29,12 +29,15 @@ classifiers = [
     "Topic :: Utilities",
 ]
 
-dependencies = []
+dependencies = [
+    "pdf2image",
+    "Pillow",
+]
 
 [project.scripts]
-piptemplate = "piptemplate.main:main"
+WhiteoutPDF = "WhiteoutPDF.main:main"
 
 [project.urls]
-"Repository" = "https://github.com/abdullahadeebx/piptemplate"
-"Bug Tracker" = "https://github.com/abdullahadeebx/piptemplate/issues"
+"Repository" = "https://github.com/abdullahadeebx/WhiteoutPDF"
+"Bug Tracker" = "https://github.com/abdullahadeebx/WhiteoutPDF/issues"
 "Homepage" = "https://www.abdullahadeeb.xyz"

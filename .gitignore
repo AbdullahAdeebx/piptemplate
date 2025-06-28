@@ -65,4 +65,4 @@ venv.bak/
 *.swo
 
 # Project specific
-piptemplate.egg-info/ 
+WhiteoutPDF.egg-info/ 
