@@ -30,7 +30,7 @@ classifiers = [
 ]
 
 dependencies = [
-    "pdf2image",
+    "PyMuPDF",
     "Pillow",
 ]
 
